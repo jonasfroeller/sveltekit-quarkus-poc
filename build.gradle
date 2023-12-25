@@ -20,6 +20,7 @@ dependencies {
     implementation 'io.quarkus:quarkus-hibernate-orm'
     testImplementation 'io.quarkus:quarkus-junit5'
     testImplementation 'io.rest-assured:rest-assured'
+    testImplementation 'io.quarkiverse.quinoa:quarkus-quinoa-testing:2.3.1'
 }
 
 group 'org.jonasfroeller'
